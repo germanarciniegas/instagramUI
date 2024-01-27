@@ -6,6 +6,10 @@
   height: 60px;
   pointer-events: none;
 }
+.state img{
+    height: 60px;
+    width: 60px;
+}
 
 .App-header {
   background-color: #282c34;
@@ -16,6 +20,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.wrapper-states {
+  display: flex;
 }
 
 .App-link {
