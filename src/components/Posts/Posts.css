@@ -1,0 +1,140 @@
+.postsContainer {
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.postsImg {
+    width: 532px;
+    height: auto;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.icons {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.union {
+    display: flex;
+    justify-content: end;
+    padding: 20px 20px 0px 0px;
+}
+
+.iconsRigth {
+    margin-left: 5px; 
+    position: relative;
+}
+
+.vectoR {
+    position: absolute;
+    top: 12px; 
+    left: 14px;
+    z-index: 1;
+}
+
+.iconsLeft {
+    margin-right: 5px;
+    position: relative;
+}
+
+.vector {
+    position: absolute;
+    top: 12px; 
+    left: 17px;
+    z-index: 1;
+}
+
+.containerCm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.imgEmily {
+    aspect-ratio: 1/1;
+    height: 55px;
+    border-radius: 35px;
+}
+
+.postsP{
+    display: flex;
+    align-items: start;
+}
+
+.textEmily {
+    font-size: 24px;
+    margin-top: -5px;
+}
+
+.textMinu {
+    font-size: 14px;
+    line-height: 18.62px;
+    color: #8D8D8D;
+    margin-top: -19px;
+}
+
+.cajabutton {
+    margin-top: 15px;
+}
+
+.likes {
+    font-size: 18px;
+    margin-top: -15px;
+    font-weight: 500;
+}
+
+.postsSg {
+    display: flex;
+    gap: 103px;
+    justify-content: space-between;
+    margin-top: -14px;
+}
+
+.PerfilPs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.iconsPs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.text {
+    margin-top: -8px;
+    font-size: 18px;
+}
+
+.reply  {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color: #8D8D8D;
+    margin-bottom: -15px;
+}
+
+.inpitsearh {
+    border-radius: 25px;
+    border: 1px #8D8D8D solid;
+    width: 230px;
+    height: 32px;
+    color: #8D8D8D;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.posts {
+    font-weight: 350;
+    text-align: left;
+    width: 300px;   
+}

@@ -1,40 +1,8 @@
 .App {
-  text-align: center;
-}
+    text-align: center;
+  }
 
 .App-logo {
-  height: 60px;
-  pointer-events: none;
-}
-.state img{
     height: 60px;
-    width: 60px;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.wrapper-states {
-  display: flex;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    pointer-events: none;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
