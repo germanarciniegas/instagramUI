@@ -2,24 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import States from './components/pages/states/States.jsx';
 import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <App />
+      
     ),
   },
   {
     path: "estado",
-    element: <div>estado</div>,
+    element: (
+      <States />
+    ),
+  },
+  {
+    path: "agregarEstado",
+    element: (
+      <h1>Hola</h1>
+    ),
   },
 ]);
 

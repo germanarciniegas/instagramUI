@@ -1,0 +1,54 @@
+.wrapper-states {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.state {
+    position: relative;
+    margin-right: 15px; 
+}
+
+.border-img {
+    position: absolute;
+    top: -7px;
+    left: -8px;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.profile-container {
+    position: relative;
+}
+  
+.add-icon {
+    position: absolute;
+    right: 4px;
+    bottom: 0.5px;
+}
+
+.add-union {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.vector-icon {
+    display: flex;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-radius: 42px;
+    padding: 8px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .wrapper-states {
+        flex-wrap: wrap;
+    }
+}
+
+
+

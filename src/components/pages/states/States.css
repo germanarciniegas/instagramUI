@@ -1,0 +1,100 @@
+
+.states-container {
+    height: 100vh;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.states-background {
+    border-radius: 34px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 477px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0 0 20px;
+    color: white;
+
+}
+
+.states-background img {
+    width: 40px ;
+    height: 40px ;
+}
+
+.states-img-texto-icon {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.states-img-texto {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.states-icons {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    gap: 8px;
+}
+
+.polygon {
+    width: 20px;
+    height:20px ;
+}
+
+.icons {
+    object-fit: contain;
+    width: 1px;
+    height: 1px;
+}
+
+.input-container {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+input {
+    width: 280px;
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.group-icon {
+   margin-bottom: 12px;
+}
+
+.back-icon {
+    color: black;
+    width: 50px;
+    height: 30px;
+}
+
+  
+@media screen and (max-width: 520px) {
+    .states-background {
+        width: 387px;
+    }
+} 
+
+
+  
